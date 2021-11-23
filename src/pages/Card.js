@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Divider, Field, Input, CheckboxRow, RadioButton, RadioButtonGroup } from '@/ui';
 import { Card } from '@/ui';
-import questions from './questions.js';
+import questions from '../JSON/questions.js';
 export default class companyCard extends React.Component {
     constructor(props) {
         super(props);
